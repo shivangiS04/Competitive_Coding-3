@@ -1,21 +1,5 @@
 // Time Complexity : O(N)
 // Space Complexity : O(1)
-// Did this code successfully run on Leetcode : yes
-// Any problem you faced while coding this : no
-
-
-// Your code here along with comments explaining your approach
-
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 class Solution {
     public boolean isPalindrome(ListNode head) {
         // TC = O(N), SC = O(1), reverse 2nd half, compare 1st & 2nd half
